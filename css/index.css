@@ -1,0 +1,231 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+h1
+{
+    display: none;
+}
+
+.header
+{
+    width: 100%;
+    height: 62px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+    .menu
+    {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+        .menu > a
+        {
+            text-decoration: none;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            color: #313131;
+            margin: auto 10px;
+        }
+
+        .link:hover
+        {
+            text-decoration: underline;
+            color: #4D5053;
+        }
+
+        .menu img
+        {
+            width: 16px;
+            height: 16px;
+        }
+
+        .login
+        {
+            padding: 6px 12px 7px;
+            border: 1px solid #4285f4;
+            background: #4285f4;
+            border-radius: 2pt;
+        }
+
+        .login:hover
+        {
+            box-shadow: 0 1px 0 #00000026;
+            border: 1px solid #4285f4;
+            font-weight: bold;
+            outline: none;
+            background: #4285f4;
+            background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+            text-decoration: none;
+        }
+
+        .login > p
+        {
+            color: #FFF;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+.page
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+}
+
+    .google
+    {
+        padding-top: 94px;
+    }
+
+    .panel
+    {
+        width: 100%;
+        padding-bottom: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        .search
+        {
+            width: 582px;
+            height: 44px;
+            border-radius: 28pt;
+            border: 1px solid #E0E0E0;
+            margin-top: 24px;
+            flex-shrink: 0;
+        }
+
+        .search:hover
+        {
+            box-shadow: 0 1px 6px 0 #20212447;
+            border-color: #DFE1E600;
+        }
+
+        .search:focus
+        {
+            outline: none;
+        }
+
+        .panel-button
+        {
+            font-family: arial,sans-serif;
+            font-size: 14px;
+            color: #5F6368;
+            margin: 28px 4px;
+            background-color: #F2F2F2;
+            border: 1px solid #F2F2F2;
+            border-radius: 4px;
+            padding: 0 16px;
+            line-height: 26px;
+            min-width: 54px;
+            height: 36px;
+            text-align: center;
+            cursor: pointer;
+            user-select: none;
+            position: relative;
+            left: -8px;
+        }
+
+        .panel-button:hover
+        {
+            box-shadow: 0 1px 1px #0000001A;
+            background-image: -webkit-linear-gradient(top,#F8F8F8,#F1F1F1);
+            background-color: #F8F8F8;
+            border: 1px solid #C6C6C6;
+            color: #222;
+        }
+
+        .panel-button:focus
+        {
+            border: 1px solid #4d90fe;
+            outline: none;
+        }
+
+    footer a:hover
+    {
+        text-decoration: underline;
+    }
+
+.region
+{
+    width: 100%;
+    height: 42px;
+    box-sizing: border-box;
+    background: #F2F2F2;
+    border: 1px solid #E2E2E2;
+    font-family: arial,sans-serif;
+    font-size: 15px;
+    color: #8E8E8E;
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    bottom: 40px;
+    align-items: center;
+}
+
+.country
+{
+    margin-left: 30px;
+}
+
+.subnavegator
+{
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    background: #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+    position: fixed;
+}
+
+    .subnavegator a
+    {
+        text-decoration: none;
+        font-family: arial,sans-serif;
+        font-size: 14px;
+        color: #5F6368;
+    }
+
+    .subnavegator-left
+    {
+        width: 34%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        .subnavegator-left
+        {
+            margin-left: 30px;
+        }
+
+    .subnavegator-right
+    {
+        width: 20%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+.subnavegator-right
+{
+    margin-right: 30px;
+}
